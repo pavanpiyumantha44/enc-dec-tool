@@ -106,3 +106,13 @@ p{
   white-space: pre-wrap;
   word-wrap:  break-word;
 }
+
+@media screen and (max-width: 768px) {
+  .content {
+    width: 80%;
+    margin-top: 2rem;
+    border: 2px dashed #bababa;
+    padding: 1rem 1rem;
+    border-radius:  0.5rem;
+}
+}
